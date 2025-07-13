@@ -29,9 +29,9 @@ const corsOptions = {
     // Para desarrollo local con Vite: 'http://localhost:5173'
     // Para desarrollo local con Create React App: 'http://localhost:3000'
     // Para producción: 'https://tu-frontend-en-vercel.app'
-    'http://localhost:5173',
-    'http://localhost:3000',
-    'https://tu-frontend-en-vercel.app'
+    //'http://localhost:5173',
+    //'http://localhost:3000',
+    'https://mariablog.vercel.app/'
   ],
   credentials: true,
   optionsSuccessStatus: 200
