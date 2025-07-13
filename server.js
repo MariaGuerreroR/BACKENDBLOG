@@ -25,13 +25,7 @@ app.use(limiter);
 // CORS configuration
 const corsOptions = {
   origin: [
-    // 🔧 CONFIGURACIÓN DE CORS - URLs PERMITIDAS DEL FRONTEND
-    // Para desarrollo local con Vite: 'http://localhost:5173'
-    // Para desarrollo local con Create React App: 'http://localhost:3000'
-    // Para producción: 'https://tu-frontend-en-vercel.app'
-    //'http://localhost:5173',
-    //'http://localhost:3000',
-    'https://mariablog.vercel.app/'
+    'https://mariablog.vercel.app'
   ],
   credentials: true,
   optionsSuccessStatus: 200
